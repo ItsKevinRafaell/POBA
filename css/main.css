@@ -3,12 +3,16 @@
 :root {
   --lg-font: "Kaisei Tokumin", serif;
   --sm-font: "Poppins", sans-serif;
-  --brown: black;
+  --brown: #266041;
   --darkbrown: black;
 }
 body {
   font-family: var(--sm-font);
   height: 1000px;
+}
+
+section {
+  padding-top: 100px;
 }
 /* button */
 .bg-blue {
@@ -36,7 +40,7 @@ body {
   color: #266041 !important;
 }
 
-.acc-btn:hover {
+button .btn.acc-btn:hover {
   color: #266041 !important;
 }
 
@@ -75,11 +79,13 @@ body {
   color: #fff;
   padding: 10px;
   margin: 5px;
-  width: 90px;
-  background-color: black;
+  width: 110px;
+  background-color: #266041;
+  ;
   border-radius: 10px;
   top: 18px;
-  right: 230px;
+  left:75%
+  
 }
 
 /* header */
@@ -87,6 +93,7 @@ body {
 .kelas {
   padding-top: 120px;
   padding-bottom: 120px;
+  background: url(/image/banner-img-3.jpg);
 }
 
 .kelas h1 {
@@ -105,10 +112,10 @@ body {
 }
 
 .btn-baca {
-  width: 270px;
+  width: 390px;
   text-align: center;
   letter-spacing: 1px;
-  background-color: #259140;
+  background-color: black;
   color: white;
   text-decoration: none;
   border: 2px solid transparent;
@@ -120,16 +127,19 @@ body {
 }
 
 .btn-baca:hover {
-  color: green;
-  background-color: transparent;
-  transform: scale(1.2);
+  color: #266041;
+  background-color: rgb (0, 0, 0);
+
   text-shadow: none;
   cursor: pointer;
-  transition: all 0.4 ease;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
+
   z-index: 2;
 }
+
+.btn-barang{
+  margin-left:43%;
+}
+
 #header {
   /* background: url(../image/banner-img-1.png) top/cover no-repeat black; */
 }
@@ -152,6 +162,10 @@ body {
 }
 
 /* collection */
+#collection {
+  padding-top: 40px;
+}
+
 .active-filter-btn {
   background-color: var(--) !important;
   color: #fff !important;
@@ -274,7 +288,7 @@ body {
   display: inline-block;
 }
 .testimonial-wrapp .quoted {
-  background: #ffcb00;
+  background: #266041;
   color: #fff;
   font-size: 20px;
   line-height: 50px;
@@ -307,11 +321,7 @@ body {
 }
 #testimonial-slider .owl-item:nth-child(2n) .testimonial-wrapp .quoted,
 #testimonial-slider .owl-item:nth-child(2n) .testimonial-wrapp:hover .testimonial-text {
-  background: black;
-}
-.testimonial-wrapp:hover .testimonial-text {
-  background: black;
-  color: #fff;
+  background: #266041;
 }
 
 /*Testimonial Quotes*/
@@ -642,3 +652,209 @@ footer .icon:hover {
     size: 10px;
   }
 }
+
+
+
+@media (max-width: 991.98px){
+  .member .content {
+      padding-top: 15px;
+  }
+  }
+  @media (max-width: 991.98px) {
+    .member .text-abi {
+      padding-right:0px;
+     }
+    .member .image-etik:padding-top: 50px;
+  
+    .member .content {
+      padding-top:40px;
+      background-color:black;
+    }
+  
+    @media (min-width: 768px){
+    .member .content {
+        padding-top: 40px;
+    }
+  }
+  }
+  @media (min-width: 991.98px) {
+   .member .image-abi {
+    padding-left:0px;
+    
+   }
+   .member .content {
+    padding-top:40px;
+  
+  }
+  
+   .member .text-abi {
+    padding-right:0px;
+   }
+  }
+  
+  @media (min-width: 768px) {
+    .member .text-abi {
+      padding-right:0px;
+     }
+    .member .image-etik:padding-top: 50px;
+  
+    .member .col-md-6 {
+      padding-top:40px;
+    }
+  
+    .member .col-md-5 {
+      padding-left:50px;
+    }
+   
+  }
+  @media (max-width: 482px) {
+  
+    .member .content {
+      padding-top:20px;
+    }
+    .member .text-abi {
+      padding-right:0px;
+     }
+    .member .img-abi {
+      padding-left:13px;
+     }
+  
+    .member {
+      padding-bottom:1px;
+    }
+    .member h2{
+      font-size:35px;
+    }
+    .member h1 {
+      font-size:30px;
+    }
+    .member h6{
+      font-size:16px;
+    }
+  
+    .member p {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .logo-header .logo-span {
+      font-size:40px;
+      left:20px;
+    }
+    
+    .logo-second .logo-span {
+      font-size:35px;
+      left:25px;
+      top:-15px;
+    }
+  }
+  
+  @media (max-width: 834px) {
+    .logo-header .logo-span {
+      font-size:40px;
+    }
+    
+    .logo-second .logo-span {
+      font-size:35px;
+      left:10px;
+      top:-40px;
+    }
+  }
+  
+  @media (max-width: 589px) {
+    .logo-header .logo-span {
+      font-size:35px;
+    }
+    
+    .logo-second .logo-span {
+      font-size:25px;
+      top:-7x;
+    }
+  }
+  
+  @media (max-width: 494px) {
+    .logo-header .logo-span {
+      font-size:30px;
+    }
+    
+    .logo-second .logo-span {
+      font-size:21px;
+      left:10px;
+      top:-20px;
+    }
+  }
+  
+  @media (max-width: 419px) {
+    .logo-header .logo-span {
+      font-size:30px;
+    }
+    
+    .logo-second .logo-span {
+      font-size:20px;
+      left:10px;
+    }
+  }
+  
+  @media (max-width: 410px) {
+    .logo-header .logo-span {
+      font-size:28px;
+      left:12px;
+    }
+    
+    .logo-second .logo-span {
+      font-size:18px;
+      left:10px;
+      top:-35px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .logo-header .logo-span {
+      font-size:28px;
+      left:12px;
+    }
+    
+    .logo-second .logo-span {
+      font-size:15px;
+      left:10px;
+      top:-15px;
+    }
+  }
+
+  /* @media (max-width: 991.98px) {
+    #clock {
+      left: 45%;
+    }
+    .shopping {
+      left:90%;
+    }
+  }
+  @media (min-width: 991.98px) {
+    #clock {
+      left: 45%;
+    }
+  }
+  
+  @media (max-width: 482px) {
+    #clock {
+      left: 45%;
+  
+    }
+  }
+  
+  @media (max-width: 380px) {
+    #clock {
+      left: 79%;
+      width: 100px;
+      font-size:10px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    #clock {
+      left: 54%;
+      width: 60px;
+      font-size:8px;
+    }
+  } */
