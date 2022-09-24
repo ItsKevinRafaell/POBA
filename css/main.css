@@ -140,6 +140,11 @@ button .btn.acc-btn:hover {
   margin-left:43%;
 }
 
+.btn-pasar:hover{
+background-color:black;
+
+}
+
 #header {
   /* background: url(../image/banner-img-1.png) top/cover no-repeat black; */
 }
