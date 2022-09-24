@@ -483,16 +483,6 @@ background-color:black;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
 }
-#newsletter .btn {
-  background-color: #ffcb00;
-  border-color: #ffcb00;
-  color: black;
-}
-#newsletter .btn:hover {
-  background-color: #002dfe;
-  border-color: #002dfe;
-  color: white;
-}
 
 /* footer */
 footer .brand {
@@ -504,11 +494,9 @@ footer a {
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
-footer a:hover {
-  color: #ffcb00 !important;
-}
+
 footer .icon:hover {
-  color: #002dfe !important;
+  color: #266041 !important;
 }
 
 /* media queries */

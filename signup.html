@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+    <!-- my style -->
+    <link rel="stylesheet" href="/sign/style-signup.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="login d-flex justify-content-center align-items-center">
+      <div class="container justify-content-center align-items-center">
+        <div class="header">
+          <h1>Sign Up</h1>
+          <p>Hi there! Please enter your user details</p>
+        </div>
+        <div class="login-form">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" />
+
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" />
+
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter your password" />
+
+          <p>By registering you agree with the Terms of Service and Privacy Police</p>
+
+          <div class="agree"><input class="" type="checkbox" name="agree" id="agree" /><label class="agree" for="agree">Agree with terms and conditions</label></div>
+
+          <button type="submit" class="signup" href="/signin.html"><a href="/signin.html" style="color: white; text-decoration: none">Registered</a></button>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

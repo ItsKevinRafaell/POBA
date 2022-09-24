@@ -1,2 +1,0 @@
-# gadgetkan
-# POBA
