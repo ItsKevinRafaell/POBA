@@ -7,7 +7,7 @@
   --darkbrown: black;
 }
 body {
-  font-family: var(--sm-font);
+  font-family: "Poppins", sans-serif;
   height: 1000px;
 }
 
@@ -57,7 +57,7 @@ button .btn.acc-btn:hover {
 
 .navbar-brand span {
   letter-spacing: 2px;
-  font-family: var(--lg-font);
+  font-family: var(--sm-font);
 }
 .nav-link:hover {
   color: #266041 !important;
@@ -150,7 +150,7 @@ background-color:black;
 }
 .carousel-inner h1 {
   font-size: 60px;
-  font-family: var(--lg-font);
+  font-family: var(--sm-font);
 }
 
 .carousel-inner h2 {
@@ -258,7 +258,7 @@ background-color:black;
 }
 .offers-content h2 {
   font-size: 60px;
-  font-family: var(--lg-font);
+  font-family: var(--sm-font);
 }
 .offers-content .btn {
   border-color: transparent !important;
@@ -486,7 +486,7 @@ background-color:black;
 
 /* footer */
 footer .brand {
-  font-family: var(--lg-font);
+  font-family: var(--sm-font);
   letter-spacing: 2px;
 }
 footer a {
