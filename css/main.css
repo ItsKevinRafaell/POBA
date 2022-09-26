@@ -6,10 +6,20 @@
   --brown: #266041;
   --darkbrown: black;
 }
+
+html,
+body{
+  width:100%;
+  overflow-x:hidden;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  height: 1000px;
-  overflow-x:hidden;
+  height: 100%;
+  width:100%;
+  margin:0;
+  padding:0;
+ 
 }
 
 section {
@@ -927,3 +937,9 @@ padding:6px;
       font-size:8px;
     }
   } */
+
+  @media (max-width:626px){
+    .collection-list{
+      width:100%;
+    }
+  }
