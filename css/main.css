@@ -137,7 +137,7 @@ button .btn.acc-btn:hover {
 }
 
 .btn-barang{
-  margin-left:43%;
+  align-items:center;
 }
 
 .btn-pasar:hover{
@@ -186,13 +186,7 @@ background-color:black;
   color: white !important;
   background-color: #266041;
 }
-.collection-img span {
-  top: 20px;
-  right: 20px;
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-}
+
 
 /* special */
 .special-img span {
@@ -484,6 +478,17 @@ background-color:black;
   border-bottom-left-radius: 25px;
 }
 
+.collection-list {
+  justify-content: space-center;
+    display: flex;
+    flex-wrap: wrap;
+  align-items:center;
+}
+
+.penanda{
+margin-left:120px;
+}
+
 /* footer */
 footer .brand {
   font-family: var(--sm-font);
@@ -499,11 +504,16 @@ footer .icon:hover {
   color: #266041 !important;
 }
 
-/* media queries */
-@media (min-width: 992px) {
-  .nav-item {
-    border-bottom: none;
-  }
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-right: 80px;
 }
 
 /* media queries */
@@ -511,6 +521,18 @@ footer .icon:hover {
   .nav-item {
     border-bottom: none;
   }
+
+}
+
+/* media queries */
+@media (min-width: 992px) {
+  .nav-item {
+    border-bottom: none;
+  }
+  #clock{
+    left:75%;
+  }
+
 }
 
 @media (max-width: 1155px) {
@@ -518,13 +540,21 @@ footer .icon:hover {
     margin-left: 51px;
     margin-top: 25px;
   }
+    #clock{
+    left:73%;
+  }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 991px) {
   .macbook-image {
     margin-left: 70px;
     margin-top: 51px;
   }
+  #clock{
+    left:60%;
+  }
+
+
 
   .vivo-image,
   .xiaomi-image {
@@ -542,7 +572,7 @@ footer .icon:hover {
   }
 }
 
-@media (max-width: 757px) {
+@media (max-width: 766px) {
   .macbook-image {
     margin-left: 93px;
     margin-top: 20px;
@@ -560,7 +590,27 @@ footer .icon:hover {
   .rating a {
     margin-right: 10px;
   }
+  #clock{
+width:55px;
+padding:6px;
+    left:58%;
+    font-size:11px;
+
+  }
+
+
 }
+
+@media (max-width:682px){
+  #clock{
+    width:55px;
+    padding:6px;
+        left:60%;
+        font-size:11px;
+    
+      }
+}
+
 
 @media (max-width: 722px) {
   .macbook-image {
@@ -580,15 +630,33 @@ footer .icon:hover {
   .btn:not(.nav-btns button) {
     background-color: #fff;
     color: rgb(85, 85, 85);
-    padding: 10px 28px;
+    padding: 5px 14px;
     border-radius: 25px;
-    width: 130px;
+    width: 220px;
     border: 1px solid rgb(85, 85, 85);
+    font-size:12px;
+
+  }
+
+  .kelas .container {
+    padding-top:70px;
+  }
+  .kelas {
+    height:100vh;
+  }
+
+  .kelas h6{
+    padding-bottom:30px;
+    padding-top:5px;
   }
 
   .owl-dots {
     padding-right: 60px;
     padding-left: 60px;
+  }
+
+  #clock {
+    display:none;
   }
 }
 
@@ -608,14 +676,10 @@ footer .icon:hover {
   }
 }
 
-@media (max-width: 423px) {
-  .macbook-image {
-    margin-left: 55px;
-    width: 300px;
-  }
-  .xiaomi-image {
-    padding-top: 40px;
-  }
+@media (max-width: 452px) {
+.penanda {
+  margin-left:200px;
+}
 }
 
 @media (max-width: 380px) {

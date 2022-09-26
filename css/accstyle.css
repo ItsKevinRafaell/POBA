@@ -169,6 +169,18 @@ button .btn.acc-btn:hover {
 }
 
 /* navbar */
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-right: 60px;
+}
 .navbar {
   -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
@@ -205,6 +217,18 @@ button .btn.acc-btn:hover {
   left: 75%;
 }
 
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-right: 60px;
+}
+
 footer .brand {
   font-family: var(--lg-font);
   letter-spacing: 2px;
@@ -221,4 +245,39 @@ footer .icon:hover {
 
 footer {
   bottom: 0px;
+}
+
+@media (max-width: 438px) {
+  .account {
+    height: 600px;
+    width: 10px;
+  }
+}
+
+@media (max-width: 391px) {
+  .account {
+    height: 700px;
+  }
+  .wrapper {
+    width: 550px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .right {
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-right: 60px;
+  }
 }

@@ -222,8 +222,29 @@ footer .icon:hover {
 #contact {
   padding-top: 130px;
   padding-bottom: 90px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #contact h2 {
   color: #266041;
+}
+
+#contact h6 {
+  margin-right: 180px;
+  margin-left: 180px;
+}
+
+@media (max-width: 756px) {
+  #contact {
+    padding-top: 150px;
+  }
+
+  #contact h6 {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
 }
