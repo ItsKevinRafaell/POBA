@@ -3,7 +3,10 @@
 }
 
 .login {
+  /* height: 100vh; */
+  background: url(/image/bg_sign.png);
   height: 100vh;
+  padding: 0;
   background-color: #ffffff;
 }
 
@@ -11,7 +14,8 @@
   width: 350px;
   background-color: #457d58;
   border-radius: 20px;
-  padding: 45px 30px;
+  padding: 15px 40px;
+  margin: 18px 0 0 0;;
 }
 
 .header h1 {
@@ -19,25 +23,25 @@
   color: #ffffff;
   text-align: center;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 30px;
+  line-height: 40px;
 }
 
 .header p {
   font-style: normal;
   font-weight: 350;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 10px;
   color: #97b690;
-  margin-bottom: 15px;
   text-align: center;
+  margin: 10px 0 0 0;
 }
 
 .login-form label {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 20px;
   color: #1d4e34;
   margin-top: 20px;
   margin-left: 8px;
@@ -56,7 +60,7 @@
   font-size: 14px;
   line-height: 21px;
   color: #000000;
-  margin: 20px 0;
+  margin: 15px 0;
   display: block;
 }
 
@@ -67,6 +71,7 @@
   color: #fff;
   border-radius: 8px;
   border: none;
+  margin: 0;
 }
 
 .login-form .signin-google {
@@ -76,21 +81,22 @@
   border: 1px solid #bcbcbc;
   box-sizing: border-box;
   border-radius: 8px;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 .login-form span {
   font-style: normal;
   color: #ffffff;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 21px;
+  margin-bottom: 15px;
 }
 
 .login-form span a {
   font-style: normal;
   color: #000000;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 21px;
+  font-weight: 650;
+  font-size: 13px;
+  line-height: 25px;
 }

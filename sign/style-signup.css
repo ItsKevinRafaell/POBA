@@ -3,15 +3,18 @@
 }
 
 .login{
+    background: url(/image/bg_sign.png);
     height: 100vh;
+    padding: 0;
     background-color: #ffffff;
 }
 
 .login .container{
     width: 350px;
     background-color: #457d58;
-    border-radius:20px ;
-    padding: 45px 30px;
+    border-radius: 20px;
+    padding: 15px 40px;
+    margin: 10px;
 }
 
 .header h1{
@@ -19,17 +22,16 @@
     color: #ffffff;
     text-align: center;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 40px;
 }
 
 .header p{
     font-style: normal;
     font-weight: 350;
     font-size: 13px;
-    line-height: 20px;
+    line-height: 10px;
     color: #97b690;
-    margin-bottom:15px;
     text-align: center;
 }
 
@@ -38,9 +40,9 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
     color: #1d4e34;
-    margin-top: 20px;
+    margin-top: 11px;
     margin-left: 8px;
 }
 .login-form input{
@@ -55,7 +57,7 @@
     font-size:12px;
     line-height: 21px;
     color: #97b690;
-    margin-top: 15px ;
+    margin: 15px 0 10px 0;
 }
 .login-form .agree{
     font-style: normal;
