@@ -670,7 +670,6 @@ footer .icon:hover {
 
 @media (max-width: 576px) {
   .collection-img {
-    margin-left: 25%;
   }
 }
 
@@ -714,8 +713,56 @@ footer .icon:hover {
   z-index: 1;
 }
 
-@media (max-width: 452px) {
+@media (max-width: 488px) {
   .penanda {
-    left: 5%;
+    left: 19%;
+  }
+}
+
+@media (max-width: 460px) {
+  .penanda {
+    left: 18%;
+  }
+}
+
+@media (max-width: 439px) {
+  .penanda {
+    left: 16%;
+  }
+}
+
+@media (max-width: 414px) {
+  .penanda {
+    left: 14%;
+  }
+}
+
+@media (max-width: 405px) {
+  .penanda {
+    left: 13%;
+  }
+}
+
+@media (max-width: 390px) {
+  .penanda {
+    left: 4%;
+  }
+}
+
+@media (max-width: 360px) {
+  .penanda {
+    left: 0%;
+  }
+}
+
+@media (max-width: 330px) {
+  .penanda {
+    left: -5%;
+  }
+}
+
+@media (max-width: 306px) {
+  .penanda {
+    left: -11%;
   }
 }

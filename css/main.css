@@ -683,11 +683,11 @@ padding:6px;
 
 @media (max-width: 452px) {
 .penanda {
-  margin-left:200px;
+  margin-left:60%;
 }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   .macbook-image {
     margin-left: 35px;
     width: 300px;
@@ -699,9 +699,13 @@ padding:6px;
   .vivo-image {
     margin-top: 90px;
   }
+
+  .penanda {
+    margin-left:55%;
+  }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 345px) {
   .macbook-image {
     margin-left: 25px;
     width: 270px;
@@ -712,6 +716,9 @@ padding:6px;
 
   .owl-dots {
     size: 10px;
+  }
+  .penanda {
+    margin-left:50%;
   }
 }
 
