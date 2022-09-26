@@ -9,6 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   height: 1000px;
+  overflow-x:hidden;
 }
 
 section {
@@ -185,6 +186,10 @@ background-color:black;
 .filter-button-group .btn:hover {
   color: white !important;
   background-color: #266041;
+}
+
+.fa-user:hover {
+  color: #266041 !important;
 }
 
 
@@ -517,12 +522,12 @@ footer .icon:hover {
 }
 
 /* media queries */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .nav-item {
     border-bottom: none;
   }
 
-}
+} */
 
 /* media queries */
 @media (min-width: 992px) {

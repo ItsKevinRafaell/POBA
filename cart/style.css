@@ -17,6 +17,7 @@ body {
   background-color: #fff;
   width: auto;
   height: auto;
+  overflow-x: hidden;
 }
 
 .page-content {
@@ -41,6 +42,22 @@ body {
 .navbar {
   -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar-collapse {
+  flex-grow: 0;
 }
 
 .navbar-brand span {
@@ -163,6 +180,22 @@ button {
 .header .arrow svg {
   margin-top: 15px;
   fill: #333;
+}
+
+.active-filter-btn {
+  background-color: var(--) !important;
+
+  border-color: var(--darkbrown) !important;
+}
+
+.active-filter-btn:hover {
+  background-color: var(--) !important;
+  color: !important;
+  border-color: #266041 !important;
+}
+.filter-button-group .btn:hover {
+  color: white !important;
+  background-color: #266041;
 }
 .header .header__top {
   display: flex;
@@ -426,6 +459,9 @@ section {
 .fa-shopping-cart:hover {
   color: #266041 !important;
 }
+.fa-user:hover {
+  color: #266041 !important;
+}
 
 button .btn.acc-btn:hover {
   color: #266041 !important;
@@ -437,7 +473,7 @@ button .btn.acc-btn:hover {
 }
 
 /* navbar */
-.navbar {
+/* .navbar {
   -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
 }
@@ -484,7 +520,8 @@ button .btn.acc-btn:hover {
   border-radius: 10px;
   top: 18px;
   left: 75%;
-}
+} 
+
 /* footer */
 footer .brand {
   font-family: var(--lg-font);
@@ -675,4 +712,10 @@ footer .icon:hover {
   margin-left: 20px;
   position: fixed;
   z-index: 1;
+}
+
+@media (max-width: 452px) {
+  .penanda {
+    left: 5%;
+  }
 }

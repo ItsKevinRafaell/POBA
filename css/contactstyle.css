@@ -10,6 +10,10 @@
 
 body {
   background-color: #f3f3f3;
+  overflow-x: hidden;
+}
+.fa-user:hover {
+  color: #266041 !important;
 }
 
 .account {

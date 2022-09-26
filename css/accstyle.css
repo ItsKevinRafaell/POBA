@@ -128,10 +128,15 @@ body {
 body {
   font-family: var(--sm-font);
   height: 1000px;
+  overflow-x: hidden;
 }
 
 section {
   padding-top: 100px;
+}
+
+.fa-user:hover {
+  color: #266041 !important;
 }
 /* button */
 .bg-blue {
