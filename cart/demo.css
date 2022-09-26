@@ -13,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 15px;
-  background: #eee;
+  background: #fff;
 }
 .intro {
   background: #fff;
@@ -100,10 +100,6 @@ a.btn:hover {
   padding-bottom: 1000px;
 }
 main {
-  background: #fff;
-  height: 390vh;
-  width: 100%;
-  padding: 0;
 }
 
 article li {
