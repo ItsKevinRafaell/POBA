@@ -7,6 +7,11 @@
 *:after {
   box-sizing: inherit;
 }
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 body {
   font-size: 100%;
