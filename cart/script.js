@@ -186,7 +186,8 @@
     // checkout: just clear the cart
     // after user confirms the checkout process
     const cartProducts = cartContent.querySelector("tbody").innerHTML;
-    if (cartProducts !== "" && confirm("Are you sure you want to checkout?")) {
+    if (cartProducts !== "" && confirm('Klik "OKE" untuk melanjutkan pembelian!')) {
+      window.open("https://wa.me/+6281549401504");
       clearCart();
     } else {
       return;
